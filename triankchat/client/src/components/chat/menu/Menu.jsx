@@ -1,9 +1,17 @@
+import {Box} from "@mui/material";
+
+//component
+import Header from "./Header";
+import Search from "./Search";
 
 
 
 const Menu=()=>{
     return(
-        <p>hello div from menu</p>
+        <Box>
+         <Header/>
+        <Search/>
+        </Box>
     )
 }
  
