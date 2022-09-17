@@ -31,7 +31,7 @@ const drawerStyle={
     left:0,
     top:12,
     height:'95%',
-    width:'34.3%',
+    width:'26rem',
     boxShadow:'none'
 }
 

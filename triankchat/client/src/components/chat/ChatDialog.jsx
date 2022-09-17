@@ -10,11 +10,12 @@ const Component=styled(Box)`
 `;
 const LeftComponent=styled(Box)`
     min-width:20rem;
-     width:30rem;
+    width:26rem;
 `;
 const RightComponent=styled(Box)`
 
     min-width: 300px;
+    width:65%;
     height: 100%;
     border-left: 1px solid rgba(0, 0, 0, 0.14);
 
