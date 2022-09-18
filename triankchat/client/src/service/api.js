@@ -22,3 +22,11 @@ export const getUsers = async () => {
         console.log("Error while calling get API", error.message);
     }
 }
+
+export const setConversation = async (data) => {
+    try {
+        await axios.post(`${url}/conversation/add`,data);
+    } catch (error) {
+        console.log("Error while calling API", error.message);
+    }
+}

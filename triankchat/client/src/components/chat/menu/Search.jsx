@@ -34,7 +34,7 @@ const InputField = styled(InputBase)`
     width: 100%;
 `;
 
-const Search = () => {
+const Search = ({setText}) => {
 
     return (
         <Component>
@@ -45,7 +45,7 @@ const Search = () => {
                 <InputField
                     placeholder="Search or start new chat"
                     // inputProps={{ 'aria-label': 'search' }}
-                    // onChange={(e) => setText(e.target.value)}
+                    onChange={(e) => setText(e.target.value)}
                 />
             </Wrapper>
         </Component>
