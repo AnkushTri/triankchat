@@ -39,7 +39,7 @@ export const getConversation = async (data) => {
     }
 }
 
-export const newMessage = async (data) =>{
+export const newMessage= async (data) =>{
     try{
         await axios.post(`${url}/message/add`,data);
 
